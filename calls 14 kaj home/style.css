@@ -1,0 +1,25 @@
+.bgcolor{
+    background-color: red;
+    margin-bottom: 5px;
+    width: 250px;
+    text-align: right;
+    padding: 5px;
+    border-radius: 0px 20px 20px 0px;
+    transform: translate(-180px);
+    transition: .5s;
+}
+.bgcolor span{
+    background: #fcecec;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+}
+.bgcolor:hover{
+    transform: translate(-80px);
+}
+.bgcolor label{
+    color: #fff;
+}
